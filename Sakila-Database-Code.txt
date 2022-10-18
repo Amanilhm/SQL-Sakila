@@ -1,0 +1,11 @@
+Sakila Database:
+1)SELECT * FROM sakila.actor;
+2)SELECT * FROM sakila.actor WHERE first_name LIKE 'John';
+3)SELECT *FROM sakila.actor WHERE last_name LIKE 'Neeson';
+4)SELECT *FROM sakila.actor WHERE (actor_id% 10 = 0);
+5)SELECT description FROM sakila.film WHERE film_id=100;
+6)SELECT * FROM sakila.film WHERE rating='R';
+7)SELECT * FROM sakila.film WHERE rating != 'R';
+8)SELECT * FROM sakila.film WHERE special_features LIKE '%Deleted Scenes%';
+
+
